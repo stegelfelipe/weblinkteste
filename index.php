@@ -26,7 +26,7 @@
 						<div class="tab-content ">
 							<div class="tab-pane active" id="1">
 								</br>
-			          			<form action=cadastrar.php method=post>
+			          			<form action="processar.php" method="post">
 				    				<div class="row">
 				  						<div class="col-lg-3">
 				    						<div class="input-group">
@@ -71,7 +71,7 @@
 								            <div class="modal-body">
 								                <div class="panel-body">
 								    				<h4>Alterar para a Categoria:</h4>
-								                    <form id="modalExemplo" method="post" action="cadastrar.php">
+								                    <form id="modalExemplo" method="post" action="processar.php">
 								                        <input type="hidden" name="idcategoria" id="campo">
 								                        <div class="form-group">
 															<?
